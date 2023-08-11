@@ -1,0 +1,37 @@
+
+
+.navIcons{
+    margin-top: 1rem;
+    margin-left: 0.1rem;
+    display: flex;
+    gap: 0.1rem;
+    justify-content: space-between;
+}
+
+.navIcons>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.navIcons>a>img{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.r-button{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+}
+
+.RightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 200px;
+}
+@media only  screen  and (max-width: 968px){
+    .RightSide{
+        display:none
+    }
+}
